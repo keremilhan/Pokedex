@@ -63,6 +63,12 @@ button {
     border-radius: 15px;
     padding:10px;
     margin: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.poke-box:hover {
+    transform: scale(1.1)
 }
 
 .poke-box img {
