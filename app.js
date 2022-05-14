@@ -52,7 +52,7 @@ const createPokemonBox = (pokemon) => {
     <h4 class="poke-name">${name}</h4>
     <p class="poke-id">#${id}</p>
     <p class="poke-weight">${weight} Kg</p>
-    <p class="poke-type">Type: ${type}</p>
+    <p class="poke-type">Type: ${type[0].toUpperCase() + type.slice(1)}</p>
     
     `;
 
